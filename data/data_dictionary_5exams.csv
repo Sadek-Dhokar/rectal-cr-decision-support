@@ -1,0 +1,50 @@
+column,type,values_or_range,n_missing
+patient_id,num,PT_0001-PT_0800,0
+age,num,25-88,0
+sex,num,F; M,0
+tumor_distance_anal_verge_cm,num,0.5-6.0,0
+pre_T_stage,num,T2; T3; T4,0
+pre_N_stage,num,N0; N1; N2,0
+pre_EMVI,num,0; 1,0
+pre_CRM_threatened,num,0; 1,0
+pre_mucinous,num,0; 1,0
+pre_circumferential_extent,num,50-75%; <50%; >75%,0
+pre_mri_tumor_volume_ml,num,5.0-69.5,0
+pre_mri_ADC_mean,num,0.49-1.44,71
+pre_CEA_ng_ml,num,0.6-76.4,0
+regimen,num,CRT_only; CRT_plus_consolidation; TNT,0
+weeks_since_end_treatment,num,5-16,0
+dre_finding,num,irregularity_or_nodule; no_abnormality; palpable_mass; smooth_scar,0
+dre_fixed_to_structures,num,0; 1,0
+endo_finding,num,flat_white_scar; residual_nodule; scar_with_telangiectasia; superficial_ulcer; visible_tumor,0
+endo_mucosal_irregularity,num,0; 1,0
+endo_stenosis,num,0; 1,0
+endo_pct_wall_involved,num,0-62,0
+bx_done,num,0; 1,0
+bx_n_samples,num,0; 2; 3; 4; 5; 6,0
+bx_result,num,inadequate; negative; not_done; positive,0
+bx_mucinous_component,num,-1; 0; 1,0
+mri_mrTRG,num,1; 2; 3; 4; 5,0
+mri_T2_residual_signal,num,intermediate_signal; large_intermediate_signal; none; thin_scar_only,0
+mri_split_scar,num,0; 1,0
+mri_DWI_restriction,num,0.0; 1.0,41
+mri_ADC_mean,num,0.34-2.26,71
+mri_tumor_volume_ml,num,0.0-54.2,0
+mri_volume_reduction_pct,num,-9-100,0
+mri_wall_thickness_mm,num,2.0-16.9,31
+mri_lumen_irregularity,num,0; 1,0
+mri_mucin_pool,num,0; 1,0
+mri_suspicious_nodes,num,0; 1,0
+mri_EMVI_post,num,0; 1,0
+mri_MRF_involved,num,0; 1,0
+ct_lung_lesion,num,0; 1,0
+ct_liver_lesion,num,0; 1,0
+ct_distant_nodes,num,0; 1,0
+ct_distant_progression,num,0; 1,0
+ct_rectal_wall_thickening,num,0; 1,0
+ct_perirectal_stranding,num,0; 1,0
+post_CEA_ng_ml,num,0.5-16.8,99
+residual_tumor,num,0; 1,0
+response_category,num,complete; incomplete; near_complete,0
+local_residual_tumor,num,0; 1,0
+safe_for_watch_and_wait,num,0; 1,0

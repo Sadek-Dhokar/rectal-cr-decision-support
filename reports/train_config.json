@@ -1,0 +1,849 @@
+{
+  "model_version": "v1.0",
+  "best_model": "logistic_l2",
+  "calibration": "none",
+  "t_low": 0.29,
+  "t_high": 0.71,
+  "threshold_selection": {
+    "method": "OOF bootstrap lower-bound rule",
+    "t_low": 0.29,
+    "t_high": 0.71,
+    "ppv_target": 0.95,
+    "npv_target": 0.9,
+    "ci_level": 0.95,
+    "n_bootstrap": 2000,
+    "min_complete_calls": 20,
+    "min_not_complete_calls": 20,
+    "n_complete": 242,
+    "n_not_complete": 77,
+    "n_uncertain": 23,
+    "coverage_pct": 93.3,
+    "ppv_complete": 0.9752,
+    "npv_not_complete": 0.961,
+    "fallback_high": false,
+    "fallback_low": false,
+    "adjusted_gap": false,
+    "scan_high": [
+      {
+        "t": 0.5,
+        "n": 253,
+        "ppv": 0.9526,
+        "ppv_ci_lower": 0.9249
+      },
+      {
+        "t": 0.51,
+        "n": 252,
+        "ppv": 0.9524,
+        "ppv_ci_lower": 0.9246
+      },
+      {
+        "t": 0.52,
+        "n": 252,
+        "ppv": 0.9524,
+        "ppv_ci_lower": 0.9246
+      },
+      {
+        "t": 0.53,
+        "n": 252,
+        "ppv": 0.9524,
+        "ppv_ci_lower": 0.9246
+      },
+      {
+        "t": 0.54,
+        "n": 252,
+        "ppv": 0.9524,
+        "ppv_ci_lower": 0.9246
+      },
+      {
+        "t": 0.55,
+        "n": 252,
+        "ppv": 0.9524,
+        "ppv_ci_lower": 0.9286
+      },
+      {
+        "t": 0.56,
+        "n": 251,
+        "ppv": 0.9562,
+        "ppv_ci_lower": 0.9283
+      },
+      {
+        "t": 0.57,
+        "n": 251,
+        "ppv": 0.9562,
+        "ppv_ci_lower": 0.9283
+      },
+      {
+        "t": 0.58,
+        "n": 250,
+        "ppv": 0.96,
+        "ppv_ci_lower": 0.932
+      },
+      {
+        "t": 0.59,
+        "n": 250,
+        "ppv": 0.96,
+        "ppv_ci_lower": 0.936
+      },
+      {
+        "t": 0.6,
+        "n": 249,
+        "ppv": 0.9639,
+        "ppv_ci_lower": 0.9398
+      },
+      {
+        "t": 0.61,
+        "n": 249,
+        "ppv": 0.9639,
+        "ppv_ci_lower": 0.9398
+      },
+      {
+        "t": 0.62,
+        "n": 249,
+        "ppv": 0.9639,
+        "ppv_ci_lower": 0.9398
+      },
+      {
+        "t": 0.63,
+        "n": 249,
+        "ppv": 0.9639,
+        "ppv_ci_lower": 0.9398
+      },
+      {
+        "t": 0.64,
+        "n": 248,
+        "ppv": 0.9637,
+        "ppv_ci_lower": 0.9394
+      },
+      {
+        "t": 0.65,
+        "n": 248,
+        "ppv": 0.9637,
+        "ppv_ci_lower": 0.9395
+      },
+      {
+        "t": 0.66,
+        "n": 248,
+        "ppv": 0.9637,
+        "ppv_ci_lower": 0.9395
+      },
+      {
+        "t": 0.67,
+        "n": 247,
+        "ppv": 0.9636,
+        "ppv_ci_lower": 0.9393
+      },
+      {
+        "t": 0.68,
+        "n": 247,
+        "ppv": 0.9636,
+        "ppv_ci_lower": 0.9393
+      },
+      {
+        "t": 0.69,
+        "n": 246,
+        "ppv": 0.9675,
+        "ppv_ci_lower": 0.9431
+      },
+      {
+        "t": 0.7,
+        "n": 244,
+        "ppv": 0.9672,
+        "ppv_ci_lower": 0.9426
+      },
+      {
+        "t": 0.71,
+        "n": 242,
+        "ppv": 0.9752,
+        "ppv_ci_lower": 0.9545
+      },
+      {
+        "t": 0.72,
+        "n": 242,
+        "ppv": 0.9752,
+        "ppv_ci_lower": 0.9545
+      },
+      {
+        "t": 0.73,
+        "n": 241,
+        "ppv": 0.9751,
+        "ppv_ci_lower": 0.9544
+      },
+      {
+        "t": 0.74,
+        "n": 240,
+        "ppv": 0.9792,
+        "ppv_ci_lower": 0.9583
+      },
+      {
+        "t": 0.75,
+        "n": 239,
+        "ppv": 0.9791,
+        "ppv_ci_lower": 0.9582
+      },
+      {
+        "t": 0.76,
+        "n": 239,
+        "ppv": 0.9791,
+        "ppv_ci_lower": 0.9582
+      },
+      {
+        "t": 0.77,
+        "n": 237,
+        "ppv": 0.9831,
+        "ppv_ci_lower": 0.962
+      },
+      {
+        "t": 0.78,
+        "n": 236,
+        "ppv": 0.9873,
+        "ppv_ci_lower": 0.9703
+      },
+      {
+        "t": 0.79,
+        "n": 235,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9702
+      },
+      {
+        "t": 0.8,
+        "n": 235,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9745
+      },
+      {
+        "t": 0.81,
+        "n": 234,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9701
+      },
+      {
+        "t": 0.82,
+        "n": 234,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9701
+      },
+      {
+        "t": 0.83,
+        "n": 234,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9701
+      },
+      {
+        "t": 0.84,
+        "n": 234,
+        "ppv": 0.9872,
+        "ppv_ci_lower": 0.9701
+      },
+      {
+        "t": 0.85,
+        "n": 233,
+        "ppv": 0.9871,
+        "ppv_ci_lower": 0.97
+      },
+      {
+        "t": 0.86,
+        "n": 233,
+        "ppv": 0.9871,
+        "ppv_ci_lower": 0.97
+      },
+      {
+        "t": 0.87,
+        "n": 232,
+        "ppv": 0.9871,
+        "ppv_ci_lower": 0.9698
+      },
+      {
+        "t": 0.88,
+        "n": 231,
+        "ppv": 0.987,
+        "ppv_ci_lower": 0.9697
+      },
+      {
+        "t": 0.89,
+        "n": 229,
+        "ppv": 0.9869,
+        "ppv_ci_lower": 0.9694
+      },
+      {
+        "t": 0.9,
+        "n": 226,
+        "ppv": 0.9867,
+        "ppv_ci_lower": 0.969
+      },
+      {
+        "t": 0.91,
+        "n": 223,
+        "ppv": 0.9865,
+        "ppv_ci_lower": 0.9686
+      },
+      {
+        "t": 0.92,
+        "n": 221,
+        "ppv": 0.9864,
+        "ppv_ci_lower": 0.9683
+      },
+      {
+        "t": 0.93,
+        "n": 217,
+        "ppv": 0.9862,
+        "ppv_ci_lower": 0.9677
+      },
+      {
+        "t": 0.94,
+        "n": 214,
+        "ppv": 0.986,
+        "ppv_ci_lower": 0.9673
+      },
+      {
+        "t": 0.95,
+        "n": 206,
+        "ppv": 0.9951,
+        "ppv_ci_lower": 0.9854
+      },
+      {
+        "t": 0.96,
+        "n": 200,
+        "ppv": 0.995,
+        "ppv_ci_lower": 0.985
+      },
+      {
+        "t": 0.97,
+        "n": 194,
+        "ppv": 0.9948,
+        "ppv_ci_lower": 0.9845
+      },
+      {
+        "t": 0.98,
+        "n": 183,
+        "ppv": 0.9945,
+        "ppv_ci_lower": 0.9836
+      },
+      {
+        "t": 0.99,
+        "n": 160,
+        "ppv": 0.9938,
+        "ppv_ci_lower": 0.9812
+      }
+    ],
+    "scan_low": [
+      {
+        "t": 0.49,
+        "n": 89,
+        "npv": 0.8989,
+        "npv_ci_lower": 0.8315
+      },
+      {
+        "t": 0.48,
+        "n": 89,
+        "npv": 0.8989,
+        "npv_ci_lower": 0.8315
+      },
+      {
+        "t": 0.47,
+        "n": 89,
+        "npv": 0.8989,
+        "npv_ci_lower": 0.8315
+      },
+      {
+        "t": 0.46,
+        "n": 88,
+        "npv": 0.9091,
+        "npv_ci_lower": 0.8409
+      },
+      {
+        "t": 0.45,
+        "n": 88,
+        "npv": 0.9091,
+        "npv_ci_lower": 0.8409
+      },
+      {
+        "t": 0.44,
+        "n": 87,
+        "npv": 0.908,
+        "npv_ci_lower": 0.8391
+      },
+      {
+        "t": 0.43,
+        "n": 87,
+        "npv": 0.908,
+        "npv_ci_lower": 0.8503
+      },
+      {
+        "t": 0.42,
+        "n": 86,
+        "npv": 0.9186,
+        "npv_ci_lower": 0.8605
+      },
+      {
+        "t": 0.41,
+        "n": 85,
+        "npv": 0.9294,
+        "npv_ci_lower": 0.8706
+      },
+      {
+        "t": 0.4,
+        "n": 83,
+        "npv": 0.9398,
+        "npv_ci_lower": 0.8795
+      },
+      {
+        "t": 0.39,
+        "n": 83,
+        "npv": 0.9398,
+        "npv_ci_lower": 0.8916
+      },
+      {
+        "t": 0.38,
+        "n": 82,
+        "npv": 0.939,
+        "npv_ci_lower": 0.8902
+      },
+      {
+        "t": 0.37,
+        "n": 81,
+        "npv": 0.9383,
+        "npv_ci_lower": 0.8765
+      },
+      {
+        "t": 0.36,
+        "n": 81,
+        "npv": 0.9383,
+        "npv_ci_lower": 0.8886
+      },
+      {
+        "t": 0.35,
+        "n": 81,
+        "npv": 0.9383,
+        "npv_ci_lower": 0.8765
+      },
+      {
+        "t": 0.34,
+        "n": 81,
+        "npv": 0.9383,
+        "npv_ci_lower": 0.8765
+      },
+      {
+        "t": 0.33,
+        "n": 80,
+        "npv": 0.9375,
+        "npv_ci_lower": 0.8875
+      },
+      {
+        "t": 0.32,
+        "n": 78,
+        "npv": 0.9487,
+        "npv_ci_lower": 0.8974
+      },
+      {
+        "t": 0.31,
+        "n": 78,
+        "npv": 0.9487,
+        "npv_ci_lower": 0.8974
+      },
+      {
+        "t": 0.3,
+        "n": 78,
+        "npv": 0.9487,
+        "npv_ci_lower": 0.8974
+      },
+      {
+        "t": 0.29,
+        "n": 77,
+        "npv": 0.961,
+        "npv_ci_lower": 0.9221
+      },
+      {
+        "t": 0.28,
+        "n": 77,
+        "npv": 0.961,
+        "npv_ci_lower": 0.9091
+      },
+      {
+        "t": 0.27,
+        "n": 77,
+        "npv": 0.961,
+        "npv_ci_lower": 0.9091
+      },
+      {
+        "t": 0.26,
+        "n": 75,
+        "npv": 0.9733,
+        "npv_ci_lower": 0.9333
+      },
+      {
+        "t": 0.25,
+        "n": 74,
+        "npv": 0.973,
+        "npv_ci_lower": 0.9324
+      },
+      {
+        "t": 0.24,
+        "n": 71,
+        "npv": 0.9718,
+        "npv_ci_lower": 0.9296
+      },
+      {
+        "t": 0.23,
+        "n": 70,
+        "npv": 0.9714,
+        "npv_ci_lower": 0.9286
+      },
+      {
+        "t": 0.22,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.21,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.2,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.19,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.18,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.17,
+        "n": 68,
+        "npv": 0.9706,
+        "npv_ci_lower": 0.9265
+      },
+      {
+        "t": 0.16,
+        "n": 67,
+        "npv": 0.9851,
+        "npv_ci_lower": 0.9552
+      },
+      {
+        "t": 0.15,
+        "n": 65,
+        "npv": 0.9846,
+        "npv_ci_lower": 0.9538
+      },
+      {
+        "t": 0.14,
+        "n": 65,
+        "npv": 0.9846,
+        "npv_ci_lower": 0.9538
+      },
+      {
+        "t": 0.13,
+        "n": 65,
+        "npv": 0.9846,
+        "npv_ci_lower": 0.9538
+      },
+      {
+        "t": 0.12,
+        "n": 65,
+        "npv": 0.9846,
+        "npv_ci_lower": 0.9385
+      },
+      {
+        "t": 0.11,
+        "n": 65,
+        "npv": 0.9846,
+        "npv_ci_lower": 0.9538
+      },
+      {
+        "t": 0.1,
+        "n": 64,
+        "npv": 0.9844,
+        "npv_ci_lower": 0.9531
+      },
+      {
+        "t": 0.09,
+        "n": 62,
+        "npv": 0.9839,
+        "npv_ci_lower": 0.9516
+      },
+      {
+        "t": 0.08,
+        "n": 62,
+        "npv": 0.9839,
+        "npv_ci_lower": 0.9516
+      },
+      {
+        "t": 0.07,
+        "n": 61,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.06,
+        "n": 61,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.05,
+        "n": 61,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.04,
+        "n": 56,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.03,
+        "n": 53,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.02,
+        "n": 48,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      },
+      {
+        "t": 0.01,
+        "n": 40,
+        "npv": 1.0,
+        "npv_ci_lower": 1.0
+      }
+    ]
+  },
+  "validation_confirmation": {
+    "n": 75,
+    "n_complete": 53,
+    "n_not_complete": 20,
+    "n_uncertain": 2,
+    "coverage_pct": 97.3,
+    "ppv_complete": 1.0,
+    "ppv_ci_lower": 1.0,
+    "npv_not_complete": 0.95,
+    "npv_ci_lower": 0.85,
+    "passes_ppv_rule": true,
+    "passes_npv_rule": false
+  },
+  "cv_results": {
+    "logistic_l2": {
+      "auroc": 0.982,
+      "auroc_std": 0.0027,
+      "auprc": 0.9929,
+      "auprc_std": 0.0011,
+      "brier": 0.0441,
+      "brier_std": 0.0044,
+      "log_loss": 0.1472
+    },
+    "logistic_l1": {
+      "auroc": 0.9791,
+      "auroc_std": 0.0033,
+      "auprc": 0.9906,
+      "auprc_std": 0.0019,
+      "brier": 0.0439,
+      "brier_std": 0.0036,
+      "log_loss": 0.1523
+    },
+    "hgb": {
+      "auroc": 0.9756,
+      "auroc_std": 0.0057,
+      "auprc": 0.9892,
+      "auprc_std": 0.0034,
+      "brier": 0.0507,
+      "brier_std": 0.0069,
+      "log_loss": 0.1822
+    },
+    "hgb_conservative": {
+      "auroc": 0.9773,
+      "auroc_std": 0.0043,
+      "auprc": 0.9906,
+      "auprc_std": 0.0022,
+      "brier": 0.0477,
+      "brier_std": 0.0043,
+      "log_loss": 0.1643
+    }
+  },
+  "calibration_results": {
+    "none": {
+      "auroc": 0.982,
+      "brier": 0.0441,
+      "brier_std": 0.0044,
+      "log_loss": 0.1472
+    },
+    "sigmoid": {
+      "auroc": 0.9821,
+      "brier": 0.047,
+      "brier_std": 0.0028,
+      "log_loss": 0.1711
+    },
+    "isotonic": {
+      "auroc": 0.9759,
+      "brier": 0.0446,
+      "brier_std": 0.0049,
+      "log_loss": 0.2067
+    }
+  },
+  "baselines_validation": {
+    "B0_majority_class": 1,
+    "B0_accuracy": 0.7333,
+    "B1_rule_auroc": 0.7114,
+    "B1_rule_auprc": 0.8419,
+    "B1_rule_ppv": 0.963,
+    "B1_rule_npv": 0.95,
+    "B2_logreg8_auroc": 0.9991,
+    "B2_logreg8_auprc": 0.9997
+  },
+  "val_auroc": 0.9982,
+  "val_brier": 0.0207,
+  "oof_auroc": 0.984,
+  "oof_brier": 0.0408,
+  "rule_stats": {
+    "ct_distant_progression==1": {
+      "n_patients": 120,
+      "correct_not_safe": 120,
+      "false_not_safe": 0,
+      "agreement_pct": 100.0,
+      "reason": "Distant metastatic progression on CT: watch-and-wait contraindicated"
+    },
+    "bx_result==positive": {
+      "n_patients": 121,
+      "correct_not_safe": 121,
+      "false_not_safe": 0,
+      "agreement_pct": 100.0,
+      "reason": "Positive biopsy: residual viable tumor confirmed histologically"
+    },
+    "endo_finding==visible_tumor": {
+      "n_patients": 123,
+      "correct_not_safe": 116,
+      "false_not_safe": 7,
+      "agreement_pct": 94.3,
+      "reason": "Visible tumor on endoscopy: macroscopic residual disease"
+    },
+    "dre_finding==palpable_mass": {
+      "n_patients": 91,
+      "correct_not_safe": 86,
+      "false_not_safe": 5,
+      "agreement_pct": 94.5,
+      "reason": "Palpable mass on DRE: residual bulky disease"
+    },
+    "_combined": {
+      "n_stopped": 304,
+      "n_remaining": 496,
+      "correct_not_safe": 293,
+      "false_not_safe": 11
+    }
+  },
+  "ml_feature_cols": [
+    "age",
+    "sex",
+    "tumor_distance_anal_verge_cm",
+    "pre_T_stage",
+    "pre_N_stage",
+    "pre_EMVI",
+    "pre_CRM_threatened",
+    "pre_mucinous",
+    "pre_circumferential_extent",
+    "pre_mri_tumor_volume_ml",
+    "pre_mri_ADC_mean",
+    "pre_CEA_ng_ml",
+    "regimen",
+    "weeks_since_end_treatment",
+    "dre_finding",
+    "dre_fixed_to_structures",
+    "endo_finding",
+    "endo_mucosal_irregularity",
+    "endo_stenosis",
+    "endo_pct_wall_involved",
+    "bx_done",
+    "bx_n_samples",
+    "bx_result",
+    "bx_mucinous_component",
+    "mri_mrTRG",
+    "mri_T2_residual_signal",
+    "mri_split_scar",
+    "mri_DWI_restriction",
+    "mri_ADC_mean",
+    "mri_tumor_volume_ml",
+    "mri_volume_reduction_pct",
+    "mri_wall_thickness_mm",
+    "mri_lumen_irregularity",
+    "mri_mucin_pool",
+    "mri_suspicious_nodes",
+    "mri_EMVI_post",
+    "mri_MRF_involved",
+    "ct_lung_lesion",
+    "ct_liver_lesion",
+    "ct_distant_nodes",
+    "ct_rectal_wall_thickening",
+    "ct_perirectal_stranding",
+    "post_CEA_ng_ml"
+  ],
+  "all_feature_cols": [
+    "age",
+    "sex",
+    "tumor_distance_anal_verge_cm",
+    "pre_T_stage",
+    "pre_N_stage",
+    "pre_EMVI",
+    "pre_CRM_threatened",
+    "pre_mucinous",
+    "pre_circumferential_extent",
+    "pre_mri_tumor_volume_ml",
+    "pre_mri_ADC_mean",
+    "pre_CEA_ng_ml",
+    "regimen",
+    "weeks_since_end_treatment",
+    "dre_finding",
+    "dre_fixed_to_structures",
+    "endo_finding",
+    "endo_mucosal_irregularity",
+    "endo_stenosis",
+    "endo_pct_wall_involved",
+    "bx_done",
+    "bx_n_samples",
+    "bx_result",
+    "bx_mucinous_component",
+    "mri_mrTRG",
+    "mri_T2_residual_signal",
+    "mri_split_scar",
+    "mri_DWI_restriction",
+    "mri_ADC_mean",
+    "mri_tumor_volume_ml",
+    "mri_volume_reduction_pct",
+    "mri_wall_thickness_mm",
+    "mri_lumen_irregularity",
+    "mri_mucin_pool",
+    "mri_suspicious_nodes",
+    "mri_EMVI_post",
+    "mri_MRF_involved",
+    "ct_lung_lesion",
+    "ct_liver_lesion",
+    "ct_distant_nodes",
+    "ct_rectal_wall_thickening",
+    "ct_perirectal_stranding",
+    "post_CEA_ng_ml",
+    "pre_mri_ADC_mean_missing",
+    "mri_DWI_restriction_missing",
+    "mri_ADC_mean_missing",
+    "mri_wall_thickness_mm_missing",
+    "post_CEA_ng_ml_missing"
+  ],
+  "train_size": 342,
+  "val_size": 75,
+  "train_full_size": 559,
+  "val_full_size": 121,
+  "test_size": 120,
+  "seed": 42,
+  "data_file": "C:\\Industrial Computer Engineering\\Clubs\\IEEE\\TECH4HEALTH\\data\\rectal_post_crt_5exams_800.csv",
+  "model_file": "final_model.joblib"
+}

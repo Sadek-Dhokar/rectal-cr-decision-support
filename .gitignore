@@ -1,0 +1,6 @@
+reports/audit_log.jsonl
+*.joblib
+!reports/final_model.joblib
+__pycache__/
+.pytest_cache/
+.venv/
